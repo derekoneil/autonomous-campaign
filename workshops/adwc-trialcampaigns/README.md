@@ -73,7 +73,7 @@ The Lab guides are best viewed using the Workshop's [GitHub Pages Website URL](h
     - Copy object storage file data to internal tables in Autonomous Data Warehouse Cloud using SQL Developer
     - Create external tables that reference files in object 
     
-## Lab 300: Creating Visulization using ADWC
+## Lab 300: Creating Visualization using ADWC
 
 **Documentation**: [LabGuide300.md](LabGuide300.md)
 
