@@ -73,12 +73,11 @@ The Lab guides are best viewed using the Workshop's [GitHub Pages Website URL](h
     - Copy object storage file data to internal tables in Autonomous Data Warehouse Cloud using SQL Developer
     - Create external tables that reference files in object 
     
-## Lab 300: Creating Visualization using ADWC
+## Lab 300: Creating Visualization from ADWC
 
 **Documentation**: [LabGuide300.md](LabGuide300.md)
 
 ### Objectives
-- Creating ADWC Instance and Loading Data
 - Set Up Local Environment
 - Create New Data Visualization Desktop Connection
 - Prepare Data Set and Create Visualization

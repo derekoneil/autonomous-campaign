@@ -25,13 +25,11 @@ At this point, you should have performed the following:
 
 - Once you have the ADWCS instance up and running, you should have a wallet zip file from previous lab.
 
-- Unzip the wallet in local folder
-- Navigate to folder where DVD is installed: **C:\\%HOMEPATH%\AppData\Local\DVDesktop\components\OBIS\DWCS**. Note: Change **%HOMEPATH%** to your PC home path. 
-- Create a new folder **bitmp** and **DWCS** inside this folder if the folders do not exist.
+- Go to the directory that you saved your credentials wallet file from the previous lab. Open up the .ZIP file.
 - Copy the cwallet.sso from unzipped folder to **C:\\%HOMEPATH%\AppData\Local\DVDesktop\components\OBIS\DWCS**. Note: Change **%HOMEPATH%** to your PC home path. 
 
 
-  ![](images/300/Picture300-00.PNG)
+    ![](./images/900/Picture300-08.PNG)
 
 ## Create New Data Visualization Desktop Connection 
 
@@ -56,7 +54,7 @@ At this point, you should have performed the following:
 
   ![](images/300/Picture300-04.PNG)
 
-- **Connection Name**: give name for instance
+- **Connection Name**: name for this connection
 - **Host**: host name from tnsnames.ora for your service
 - **Post**: port number from tnsnames.ora for your service
 - **Username**: \<username>
