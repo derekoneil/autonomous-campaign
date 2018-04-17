@@ -5,9 +5,9 @@ This is the second of several labs that are part of the **Oracle Autonomous Data
 This lab walks you through some examples using the Oracle
 Autonomous Data Warehouse Cloud with Object Storage. You will create and Object Storage bucket, upload data files, and use SQL developer to query those data files.
 
-**Please direct comments to: Tom Huang (tom.huang@oracle.com).**
 
 ## Objectives
+
 - Learn how to use OCI Object Storage
     - Create buckets
     - Upload Files
@@ -17,40 +17,46 @@ Autonomous Data Warehouse Cloud with Object Storage. You will create and Object 
 
 
 ## Required Artifacts
+
 - The following lab requires an Oracle Public Cloud trial account.
 
 
 # Oracle Cloud Infrastructure (OCI) Object Storage
+
 Oracle Object Storage is a web-based interface that provides the ability to accelerate a broad range of high performance applications with your choice of high IO block storage, and durable, high-throughput object storage.
 
 Key features of OCI Object Storage:
 - Persistent IO-intensive block storage and high-throughput object storage options to handle multiple application types, and data at different lifecycle stages.
 - Each is manageable through the console and by CLI.
 
+## Creation and Upload
+
 ### **STEP 1**: Access Oracle Cloud Infrastructure
+
 - Log into your Oracle cloud account
 
 - Click on the hamburger menu icon on the top left of the dashboard screen
 
 - Expand **Services** and click on **Compute**
 
-![](./images/200/14.png)
+    ![](./images/200/14.png)
 
 
 ### **STEP 2**: Access the Object Storage Console.
+
 - Select the **Storage** tab in the navigation bar
 
-![](./images/200/2.png)
+    ![](./images/200/2.png)
 
 - Select **Object Storage** in the side menu
 
-![](./images/200/3.png)
+    ![](./images/200/3.png)
 
 ### **STEP 3**: Create Object Storage Bucket
 
 - Select **Create Bucket**
 
-![](./images/200/4.png)
+    ![](./images/200/4.png)
 
 - Enter the following information:
 
@@ -60,7 +66,7 @@ Key features of OCI Object Storage:
 
 Select **Create Bucket**.
 
-![](./images/200/5.png)
+    ![](./images/200/5.png)
 
 ### **STEP 4**:  Upload files to your storage bucket.
 
@@ -80,17 +86,17 @@ Select **Create Bucket**.
 
 - Select your bucket name in the list of buckets. i.e. &lt;yourname&gt;OS
 
-![](./images/200/6.png)
+    ![](./images/200/6.png)
 
 - Let's upload the CSV file.
 
   - Select **Upload Object**
 
-  ![](./images/200/7.png)
+    ![](./images/200/7.png)
 
   - Select **Browse** and select your recently saved csv file.
 
-  ![](./images/200/8.png)
+    ![](./images/200/8.png)
 
   - Select **Upload Object** and the popup will disappear.
 
@@ -98,11 +104,11 @@ Select **Create Bucket**.
 
   - Select **Upload Object**
 
-  ![](./images/200/7.png)
+    ![](./images/200/7.png)
 
   - Select **Browse** and select your recently saved json file.
 
-  ![](./images/200/8.png)
+    ![](./images/200/8.png)
 
   - Select **Upload Object** and the popup will disappear.
 
@@ -111,27 +117,25 @@ Select **Create Bucket**.
 
  - Click the drop down with username logged in, and select **User Settings**.
 
-  ![](./images/200/9.png)
+    ![](./images/200/9.png)
 
  - Select **Swift Passwords**.
 
-  ![](./images/200/10.png)
+    ![](./images/200/10.png)
 
  - Select **Generate Password**.
 
-  ![](./images/200/11.png)
+    ![](./images/200/11.png)
 
  - Give a brief description, i.e. "dbms cloud api credential" and Select **Generate Password**
 
-  ![](./images/200/12.png)
+    ![](./images/200/12.png)
 
  - Record / Copy the newly generated password for the next step.
 
-
 Next, we are going to use our Autonomous Data Warehouse Cloud instance connected with SQL Developer to interact with the data files residing in our recently create Object Storage bucket.
 
-
-# Querying Data Files in Object Storage
+## Querying Data Files in Object Storage
 
 ### **STEP 6**:  Connect Autonomous Data Warehouse Cloud instance to data in Object Storage
 
@@ -171,13 +175,9 @@ CREATE TABLE INSURANCE (policyID NUMBER(20), statecode VARCHAR(20), county VARCH
 
 ```
 
-- Use DBMS_CLOUD PL/SQL procedure to copy the data into the new tables
+- Use DBMS_CLOUD PL/SQL procedure to copy the data into the new tables. **Note:** you will need to replace **region** , **tenant** , and **bucket** in the file_uri_list parameter. You can find tenancy and region here:
 
-**Note:** you will need to replace **region** , **tenant** , and **bucket** in the file_uri_list parameter.
-
-You can find tenancy and region here:
-
-  ![](./images/200/13.png)
+    ![](./images/200/13.png)
 
 Use this information for the **file_uri_list** parameter in the DBMS_CLOUD function.
 
@@ -206,9 +206,10 @@ If for whatever reason you'd like to keep your data in Object Storage, you can c
 
 Go back to Oracle Cloud Infrastructure Console to get the information about tenancy and region
 
-  ![](./images/200/13.png)
+![](./images/200/13.png)
 
 Then in SQL Developer, run the following PL/SQL scripts.
+
 ```
 
 begin
