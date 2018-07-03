@@ -1,6 +1,3 @@
-![](./images/300/TITLE300.png)
-
-Updated: May 10, 2018
 
 # ADWC Lab 300: Data Loading
 

@@ -1,8 +1,6 @@
-![](images/800/title800.JPG)
 
-Updated: March 27, 2018
 
-# Lab 800: Basic Oracle Database Machine Learning (DBMS_PREDICTIVE_ANALYTICS)
+# Lab 600: Basic Oracle Database Machine Learning (DBMS_PREDICTIVE_ANALYTICS)
 
 ## Introduction
 

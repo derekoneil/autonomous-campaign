@@ -1,6 +1,5 @@
-![](./images/900/title900.jpg)
 
-# Lab 900: Create Data Visualizations from ADWC
+# Lab 700: Create Data Visualizations from ADWC
 
 ## Introduction
 

@@ -1,8 +1,6 @@
-![](images/700/TITLE700.png)
 
-Updated: March 21, 2018
 
-# Lab 700: Using Oracle Machine Learning Notebooks
+# Lab 500: Using Oracle Machine Learning Notebooks
 
 ## Introduction
 

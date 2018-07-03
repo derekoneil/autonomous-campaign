@@ -1,6 +1,4 @@
-![](./images/DIPC/Titledipc.jpg)
 
-Updated: May 17, 2018
 
 # ADWC Lab DIPC: Using Oracle Data Integration Platform Cloud (DIPC) with ADWC
 
