@@ -11,43 +11,43 @@
             },
             {
                 "number": "100",
-                "filename": "LabGuide100StartHere.md",
+                "filename": "LabGuide100ProvisioningGettingStarted.md",
                 "title": "Lab 100: Provisioning and Connecting",
                 "description": "Instructions to provision an ADWC service and connect to ADWC"
             },
             {
                 "number": "200",
-                "filename": "LabGuide200.md",
+                "filename": "LabGuide200DatabaseServiceSampleDatasets.md",
                 "title": "Lab 200: Working with Database Services and Sample Data Sets",
                 "description": "Understanding the different levels of database services and the sample Star Schema Benchmark (SSB) and Sales History (SH) datasets provided with ADWC"
             },
             {
                 "number": "300",
-                "filename": "LabGuide300.md",
+                "filename": "LabGuide300DataLoading.md",
                 "title": "Lab 300: Data Loading",
                 "description": "Instructions to load data from Object Stores using SQL Developer and/or PL/SQL"
             },
             {
                 "number": "400",
-                "filename": "LabGuide400.md",
+                "filename": "LabGuide400ScalingPerformance.md",
                 "title": "Lab 400: Scaling and Performance in ADWC",
                 "description": "Understanding how to scale ADWC and its impact on performance and concurrency"
             },
             {
                 "number": "500",
-                "filename": "LabGuide500.md",
+                "filename": "LabGuide500OracleMachineLearning.md",
                 "title": "Lab 500: Oracle Machine Learning Notebooks",
                 "description": "Instructions to use Oracle Machine Learning Notebooks in ADWC"
             },
             {
                 "number": "600",
-                "filename": "LabGuide600.md",
+                "filename": "LabGuide600OracleDatabaseML.md",
                 "title": "Lab 600: Basic Machine Learning (DBMS_PREDICTIVE_ANALYTICS)",
                 "description": "Learn to use DBMS_PREDICTIVE_ANALYTICS using a sample Oracle ML Notebook"
             },
             {
                 "number": "700",
-                "filename": "LabGuide700.md",
+                "filename": "LabGuide700DataVisualization.md",
                 "title": "Lab 700: Create Data Visualizations from ADWC",
                 "description": "Learn to use Data Visualization Desktop with ADWC"
             },
