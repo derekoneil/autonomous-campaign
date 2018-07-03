@@ -46,7 +46,7 @@ This workshop walks you through all the steps to get started using the **Oracle 
 
 ## Lab 100: Provisioning and Connecting
 
-**Documentation**: [LabGuide100StartHereNEW.md](LabGuide100StartHereNEW.md)
+**Documentation**: [LabGuide100ProvisioningGettingStarted.md](LabGuide100ProvisioningGettingStarted.md)
 
 **Objectives**:
 
@@ -57,7 +57,7 @@ This workshop walks you through all the steps to get started using the **Oracle 
 
 ## Lab 200: Working with Database Services and Sample Data Sets
 
-**Documentation**: [LabGuide200.md](LabGuide200.md)
+**Documentation**: [LabGuide200DatabaseServiceSampleDatasets.md](LabGuide200DatabaseServiceSampleDatasets.md)
 
 **Objectives**:
 
@@ -68,7 +68,7 @@ This workshop walks you through all the steps to get started using the **Oracle 
 
 ## Lab 300: Data Loading
 
-**Documentation**: [LabGuide300.md](LabGuide300.md)
+**Documentation**: [LabGuide300DataLoading.md](LabGuide300DataLoading.md)
 
 **Objectives**:
 
@@ -80,7 +80,7 @@ This workshop walks you through all the steps to get started using the **Oracle 
 
 ## Lab 400: Scaling and Performance in ADWC
 
-**Documentation**:  [LabGuide400.md](LabGuide400.md)
+**Documentation**:  [LabGuide400ScalingPerformance.md](LabGuide400ScalingPerformance.md)
 
 **Objectives**:
 
@@ -89,7 +89,7 @@ This workshop walks you through all the steps to get started using the **Oracle 
 
 ## Lab 500: Oracle Machine Learning Notebooks
 
-**Documentation**: [LabGuide500.md](LabGuide500.md)
+**Documentation**: [LabGuide500OracleMachineLearning.md](LabGuide500OracleMachineLearning.md)
 
 **Objectives**:
 
@@ -100,7 +100,7 @@ This workshop walks you through all the steps to get started using the **Oracle 
 
 ## Lab 600: Basic Machine Learning (DBMS_PREDICTIVE_ANALYTICS)
 
-**Documentation**: [LabGuide700.md](LabGuide600.md)
+**Documentation**: [LabGuide600OracleDatabaseML.md](LabGuide600OracleDatabaseML.md)
 
 **Objectives**:
 
@@ -110,7 +110,7 @@ This workshop walks you through all the steps to get started using the **Oracle 
 
 ## Lab 700: Create Data Visualizations from ADWC
 
-**Documentation**: [LabGuide700.md](LabGuide700.md)
+**Documentation**: [LabGuide700DataVisualization.md](LabGuide700DataVisualization.md)
 
 **Objectives**:
 
