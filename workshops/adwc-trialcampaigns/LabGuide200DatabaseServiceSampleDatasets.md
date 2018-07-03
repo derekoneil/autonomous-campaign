@@ -1,4 +1,3 @@
-
 # ADWC Lab 200: Working with Database Services and Sample Data Sets
 
 ## Introduction

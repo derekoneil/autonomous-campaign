@@ -1,5 +1,3 @@
-
-
 # Lab 600: Basic Oracle Database Machine Learning (DBMS_PREDICTIVE_ANALYTICS)
 
 ## Introduction

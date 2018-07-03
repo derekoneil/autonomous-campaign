@@ -1,5 +1,3 @@
-
-
 # ADWC Lab DIPC: Using Oracle Data Integration Platform Cloud (DIPC) with ADWC
 
 ## Introduction

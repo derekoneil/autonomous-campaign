@@ -1,4 +1,3 @@
-
 # ADWC Lab 300: Data Loading
 
 ## Introduction

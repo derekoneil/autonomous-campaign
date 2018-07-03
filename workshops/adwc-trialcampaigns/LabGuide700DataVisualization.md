@@ -1,4 +1,3 @@
-
 # Lab 700: Create Data Visualizations from ADWC
 
 ## Introduction

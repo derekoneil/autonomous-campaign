@@ -1,5 +1,3 @@
-
-
 # ADWC Lab 400: Scaling and Performance
 
 ## Introduction

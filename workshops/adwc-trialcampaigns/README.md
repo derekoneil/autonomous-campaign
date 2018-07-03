@@ -1,7 +1,3 @@
-
-![](images/ADWC.JPG)  
-
-    
 # ADWC Journey: Hands-On Test Drive Workshop
 This workshop walks you through all the steps to get started using the **Oracle Autonomous Data Warehouse Cloud (ADWC)**. You will provision a new ADWC database, load data from the object store and troubleshoot data loads, scale an ADWC instance, use Oracle Machine Learning notebooks and connect database to DVD.
 
