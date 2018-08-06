@@ -115,6 +115,16 @@ This workshop walks you through all the steps to get started using the **Oracle 
 - Learn how to create a simple data visualization project with Oracle Data Visualization Desktop
 - Learn how to access and gain insights from data in the Autonomous Data Warehouse
 
+## Lab 700-2: Create Data Visualizations from Oracle Autonomous Analytics
+
+**Documentation**: [LabGuide700(OAAC).md](LabGuide700(OAAC).md)
+
+**Objectives**:
+
+- Learn how to connect a autonomous analytics tool to the powerful Autonomous Data Warehouse 
+- Learn how to create a simple data visualization project with Oracle Autonomous Analytics
+- Learn how to access and gain insights from data in the Autonomous Data Warehouse
+
 
 ## Lab 800: Integrating with ADWC
 
