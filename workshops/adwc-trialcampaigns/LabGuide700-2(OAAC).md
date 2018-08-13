@@ -9,12 +9,12 @@ At this point, you should have performed the following:
 1. Created an ADWC instance and downloaded the credentials wallet.  
 
 ## Objectives
-- Learn how to connect a autonomous analytics tool to the powerful Autonomous Data Warehouse 
+- Learn how to connect an autonomous analytics tool to the powerful Autonomous Data Warehouse 
 - Learn how to create a simple data visualization project with Oracle Autonomous Analytics
 - Learn how to access and gain insights from data in the Autonomous Data Warehouse
 
 ## Required Artifacts
-- Acess to an Autonmous Analytics
+- Access to an Autonomous Analytics
 - Access to an ADWC instance 
 
 ## Create a View using Tables in the SH Schema
@@ -78,7 +78,7 @@ To enable secured communication between Oracle Autonomous Analytics and the Auto
 
    ![](./images/700-2/Open_Console2.png)
 
-- Click Connectios
+- Click Connections
 
    ![](./images/700-2/Console_Connections.png)
 
@@ -86,7 +86,7 @@ To enable secured communication between Oracle Autonomous Analytics and the Auto
 
    ![](./images/700-2/UPLOAD_WALLET.png)
 
-- Note: Even on your first upload, you may encountera screen saying wallet is already uploaded. If so, click Proceed.
+- Note: Even on your first upload, you may encounter screen saying wallet is already uploaded. If so, click Proceed.
 
 ![](./images/700-2/PROCEED.png)
 
