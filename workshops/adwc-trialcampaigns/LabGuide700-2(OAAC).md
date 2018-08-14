@@ -60,6 +60,124 @@ For the sake of this test drive exercises, we are helping make it as simple as p
 
    ![](./images/900/image012.png)
 
+## Create OAAC instance 
+
+# Setting up a Cloud Storage Bucket
+
+- In My Services, open the dashboard.
+
+- Navigate to the Compute service, click the Action Menu, and then select Open Service Console.
+
+![](./images/700-2/oaac_dash_compute.jpg)
+
+- Create a compartment for Oracle Autonomous Analytics Cloud.
+
+Oracle Cloud Infrastructure uses compartments to organize your resources. Oracle recommends that you create a compartment especially for Oracle Autonomous Analytics Cloud storage buckets. For example, create a compartment named MyAnalyticsCloudStorageBuckets.
+
+- Click the navigation menu Navigation menu, and then click Compartments.
+
+![](./images/700-2/oaac_oci_compartment_menu.jpg)
+
+- Click Create Compartment.
+
+Enter a name and description for the compartment, and then click Create Compartment.
+You don't need to change any other settings.
+
+![](./images/700-2/oaac_oci_compartment.jpg)
+
+- Click the navigation menu Navigation menu, and then click Object Storage.
+
+![](./images/700-2/oaac_oci_storage.jpg)
+
+- Select the Compartment you created earlier. For example, MyAnalyticsCloudStorageBuckets.
+
+Create a storage bucket.
+
+- Click Create Bucket.
+
+- Enter a name for the bucket.
+
+You don't need to change any other settings.
+
+![](./images/700-2/oaac_oci_bucket1.jpg)
+
+- Click Create Bucket.
+
+Generate the authentication token used to access the storage bucket.
+
+- Click the navigation menu Navigation menu, and then click Users (under Identity).
+
+- Select the user who created the bucket.
+
+- Click Auth Tokens, click Generate Token, and enter a friendly description for the authentication token.
+
+![](./images/700-2/oaac_oci_swift.jpg)
+
+- Click Generate Token.
+
+Copy and record the token immediately because you can't retrieve or copy it again after closing the dialog.
+
+Make a note of the user name and authentication token alongside the other bucket information that you recorded earlier. You need these storage credentials to set up Oracle Autonomous Analytics Cloud.
+
+# Create Autonomous Analytics instance
+
+- Sign in to My Services.
+- Click Customize Dashboard.
+- Select Show for all the services required to set up Oracle Autonomous
+
+- Navigate to Autonomous Analytics, click the Action Menu, and then select Open Service Console.
+
+![](./images/700-2/oaac_dash_stack.jpg)
+
+- Click Create Instance.
+
+![](./images/700-2/oaac_create.jpg)
+
+In the Stack Details area:
+- Name: Enter a name for your service instance. The name must start with a letter and can contain only letters and numbers.
+- Description: (Optional) Enter a description.
+- Template: The template for Oracle Autonomous Analytics Cloud is selected for you.
+- Notification Email: Enter the email address of the person who should receive status updates about this service. This person is usually you, the Cloud Account Administrator who’s setting up the service.
+- Tags: (Optional) Add tags and assign tags to this service.
+- On Failure Retain Resources: (Optional) Select to retain the environment if service creation fails. Deselect to roll-back the entire stack if the creation process fails.
+
+![](./images/700-2/oaac_stack_details.jpg)
+
+In the Select Region area:
+- Region: A region is a localized geographic area. Select the same Oracle Cloud Infrastructure region where you created the storage bucket.
+- Availability Domain: An availability domain is one or more data centers located within a region. Select an availability domain within the selected region. Don’t select No Preference.
+
+![](./images/700-2/oaac_stack_region.jpg)
+
+In the Choose Service Options area:
+- Edition: Select the Enterprise edition of Oracle Analytics Cloud. "Enterprise Edition — EE-Enterprise"
+
+- Feature Set: Select Data Visualization - Self Service data visualization, preparation and self discover.
+
+- Number of OCPU's: Select 1
+
+![](./images/700-2/oaac_stack_analytics.jpg)
+
+In the Specify Storage Details area:
+
+- Namespace: Enter the namespace in Oracle Cloud Infrastructure where you created the storage bucket for Oracle Autonomous Analytics Cloud. For example, oacpaas1.
+
+- Bucket Name: Enter the name of the storage bucket that you created in Oracle Cloud Infrastructure for snapshots and analytics data sets. For example, MyAnalyticsCloudStorage.
+Ensure that the bucket you specify is empty.
+
+- Username: Enter the name of the user who created the bucket or any user who belongs to the Administrators group with write access to the bucket. For example, cloud.admin
+
+- Authentication Token: Enter the authentication token that you generated for this user in Oracle Cloud Infrastructure.
+
+![](./images/700-2/oaac_stack_storage.jpg)
+
+Click Next.
+
+Verify that the details are correct, and click Confirm.
+
+![](./images/700-2/activity-page.gif)
+
+
 ## Uploading the ADW Wallet to OAAC
 To enable secured communication between Oracle Autonomous Analytics and the Autonomous Data Warehouse, you must upload trusted SSL certificates.
 
